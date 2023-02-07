@@ -73,7 +73,7 @@
     
     margin-left: 25%;
     width: 35%;
-    height: 36px;
+    height: 35px;
     vertical-align:6.5px;
     border-width: 1px;
     border-style: solid;
@@ -155,23 +155,31 @@
 }
 
 .practice{
-    margin-top: 80px;
+    margin-top: 40px;
     margin-left: 30%;
     height: 60%;
     width: 30%;
     border: solid;
-    border-width: 2px;
+    border-width: 4px;
     border-color: darkslategrey;
+    background-color: rgb(13, 84, 112);
         
 }
 .selection{
     background-color: rgb(234, 217, 217);
+    width: 70px;
+}
+.select{
+    
+   
 }
 .body-left{
     background-color: #7F8487;
 }
 .paragraph{
-    margin: 0 0 0 0 ;
+    padding-top: 25px;
+    font-style: Roboto, Arial, Sans-Serif;
+    color: brown;
 }
 .body-right{
     
@@ -193,24 +201,30 @@
     margin-top:0;
     padding-top: 10;
 }
+.selectg{
+    margin-bottom: 60px;
+}
 a{
     padding: 4px 8px;
     transition: 1.5s cubic-bezier(0.39, 0.5, 0.15, 1.5);
+    
 
 }
+
 a.button{
-    margin-left: 30%;
+    margin-left: 33%;
+    
     font-size: large;
     font-weight: bold;
     border: solid;
-    border-width: 1px;
+    border-width: 3px;
     background-color: rgb(183, 174, 174);
     color: black;
     box-shadow: rgb(30,99,160) 0 0 0 1px inset;
 }
 a.button:hover{
     color: white;
-    box-shadow: rgb(30, 99, 160) 0 0 0 13px inset;
+    box-shadow: rgb(30, 99, 160) 0 0 0 15px inset;
 }
 .select-video-language{
     font-size: 17px;
@@ -236,7 +250,7 @@ a.button:hover{
 }
 .copyright-center{
     color: black;
-    margin-left: 40%;
+    margin-left: 35%;
     font-size: 18px;
     word-spacing: 0.4em;
 }
