@@ -1,86 +1,146 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="styles.css">
-<title>TalkLingo</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="design.css">
 </head>
-<body>
-<div class="top-background">
-    <div class="title">
-  <h1><img src="logo1.png" height=60 width=65>&emsp;&emsp;&emsp;&emsp;TALKLINGO </h1>
-  
-  </div> 
-  
-<div class="home">
-    <p>Home    About     Contact     FAQ</p>
+<div class="full-website">
+
+    <div class="top-title">
+    <img id="title" src="photos\logo6.png" height=100px width=160px>
+    
+     <ul>
+        <li><a href="#">newsletter</a></li>
+        <li><a href="#">about</a></li>
+        <li><a href="#">article <i class="fas fa-caret-down"></i></a></li>
+        
+        <li><a href="#">email</a></li>
+        <li><a href="#">domain</a></li>
+     </ul>  
+    
 </div>
-<!--<div class="quote">
-      <h1>Practice makes perfect</h1>
-  </div>-->
-<div class="container">
-      <form action="/" method="GET" class="form">
-        <input type="search" placeholder="Search" class="search-field" />
-        <button type="submit" class="search-button">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-rEOtukLmpjM4iXN_ARqpE3iSvwyrlAkTfw&usqp=CAU" height=20 width=20>
-        </button>
-      </form>
+<div class="nav-bar">
+    <input class="search-bar" type="text" placeholder="Search..">
+    <button type="submit" class="search-button">
+        <img class="search-icon"src="photos\search.svg" height=20 width=20>
+      </button>
+</div>  
+<div class="black-line">
+    <div class="home">
+        <p class="home-text"> <span class="home-hover">Home</span> <span class="home-hover">Contacts</span> <span class="home-hover">FAQ</span> <span class="home-hover">Help</span></p>
+        
+    </div>
+    <div class="login-grid">
+      <span class="login-button"> login  </span>
+    </div>
+    <div class="my-account-icon">
+        <img class="my-account" src="photos/Screenshot_2.png" height="30px">
+        
     </div>
 </div>
-<div class="selection">
+
+    <div class="body">
+        <div class="body-left">
+        <div class="practice">
+            <p class="practice-now">Practice Now</p>
+            <p class="select">Language
+                <select class="selection">
+                    <option value="select">select</option>
+                    <option value="English">English</option>
+                    <option value="Hindi">Hindi</option>
+                    <option value="German">German</option>
+                    <option value="Japnese">Telugu</option>
+                    <option value="Korean">Punjabi</option>
+                </select>
+            </p>
+            
+            <p class="select">Level of user
+                <select class="selection">
+                    <option value="select">select</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </p>
+            <p class="select">Gender
+                <select class="selection">
+                    <option value="select">select</option>
+                    <option value="male">male</option>
+                    <option value="female">female</option>
+                    <option value="any">any</option>
+                </select>
+                </p>
+                <a  class="button">Call</a>
+        </div>
+        <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, magni sunt? Magnam, repudiandae alias delectus quis id blanditiis maxime a autem sit quam, qui fugiat necessitatibus velit veniam adipisci aperiam.</p>
+    </div>
     
-    <h3><strong>PRACTICE NOW</strong></h3>
-    </br>
-    </br>
-    <label>Language</label>
-    <select name="Language">
-        <option value="select">select</option>
-        <option value="English">English</option>
-        <option value="Hindi">Hindi</option>
-        <option value="German">German</option>
-        <option value="Telugu">Telugu</option>
-        <option value="Punjabi">Punjabi</option>
-    </select>
-    </br>
-    </br>
-    <label>Level of user</label>
-    <select name="level of user">
-        <option value="select">select</option>
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5</option>
-    </select>
-    </br>
-    </br>
-    <label>Gender</label>
-    <select name="Gender">
-        <option value="select">select</option>
-        <option value="male">male</option>
-        <option value="female">female</option>
-        <option value="any">any</option>
-    </select>
-    </br>
-    </br>
-    </br><div class="button">
+    <div class="body-right">
+        <div class="videos">
+            <div class="video-language">
+                <p class="watch-video">Watch Videos <span class="select-video-language">
+                    Language
+                    <select class="select-videolanguage">
+                        <option value="select">select</option>
+                        <option value="English">English</option>
+                        <option value="Hindi">Hindi</option>
+                        <option value="German">German</option>
+                        <option value="Korean">Korean</option>
+                        <option value="russian">Russian</option>
+                        <option value="Nepali">Nepali</option>
     
-    <input type="submit" name="submit" 
-    value="Start"></div>
+                    </select>
+                </span></p>
+                
+            </div>
+        
+        </div>
+        <div class="video-content">
+            <div class="video-grid">
+            <a href="https://www.youtube.com/watch?v=mK53d6aIG48"target="_blank"><img src="photos/RMadhavan.jpg" width="95%" ></a>
+            <div class="video-information"><div class="video-title">R. MADHAVAN: India in 2030</div>
+        </div>
+        <div class="video-statistics">
+            2.6M views &#46; 3 years ago
+        </div>
+    </div>
+            <div class="video-grid">
+            <a href="https://www.youtube.com/watch?v=Tuw8hxrFBH8&t=16s"target="_blank"><img src="photos/Stevejobs.jpg" width="95%" ></a>
+            <div class="video-information"><div class="video-title">Steve Jobs</div>
+        </div>
+        <div class="video-statistics">
+            25M views &#46; 2 years ago
+        </div>
+        </div>
+            <div class="video-grid">
+            <a href="https://www.youtube.com/watch?v=LEtP7HgGTu0"target="_blank"><img src="photos/Apj.jpg" width="95%" ></a>
+            <div class="video-information"><div class="video-title">DR. A.P.J ABDUL KALAM</div>
+        </div>
+        <div class="video-statistics">
+            400K views &#46; 11 months ago
+        </div>
+        </div>
+            <div class="video-grid">
+            <a href="https://www.youtube.com/watch?v=BVgnIYSKUjY"target="_blank"><img src="photos/Rishisunak.jpg" width="95%" ></a>
+            <div class="video-information"><div class="video-title">RISHI SUNAK</div>
+        </div>
+        <div class="video-statistics">
+            519K views &#46; 3 months ago
+        </div>
+        </div>
+
+        </div>
+    </div>
+</div>
+<div class="copyright">
+    <span class="copyright-center">Copyright &#169; Talklingo 2023</span>
 </div>
 </div>
-<!-- <div class="images">
-<img src="https://www.shutterstock.com/image-vector/communication-smartphone-vector-illustration-260nw-524876680.jpg"width=75%>
-</div>-->
-</br>
-<div class="intro">
-    <p>a system of communication by speaking, writing, or making signs in a way that can be understood, or any of the different systems of communication used in particular regions: [ C ] the English language. [ C ] American Sign Language. [ C ] He speaks six foreign languages.a system of communication by speaking, writing, or making signs in a way that can be understood, or any of the different systems of communication used in particular regions: [ C ] the English language. [ C ] American Sign Language. [ C ] He speaks six foreign languages.</p>
-</br></br>
-<div class="copyright"><p>Copyright &#169 2023 TalkLingo</p></div>
-</div>
-
-    
-
-
 </body>
 </html>
-
