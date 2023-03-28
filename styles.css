@@ -1,83 +1,99 @@
-body{
+
+body {
     margin: 0;
+    margin-top: -10px;
 }
-.full-website{
-    margin:0;
-    
+
+.full-website {
+    margin: 0;
+
 }
-.article{
+
+.article {
     display: flex;
-    color:white;
-    vertical-align:53px;
-    font-size:18px;
-    word-spacing:10px;
+    color: white;
+    vertical-align: 53px;
+    font-size: 18px;
+    word-spacing: 10px;
     display: inline;
     margin-left: 5%;
     text-decoration: none;
-    
+
 }
-.article-hover{
+
+.article-hover {
     transition: all 0.2s ease-in-out;
 }
-.article-hover:hover{
+
+.article-hover:hover {
     color: grey;
     cursor: pointer;
 }
 
-.home-hover{
+.home-hover {
     transition: all 0.2s ease-in-out;
 }
-.home-hover:hover{
+
+.home-hover:hover {
     color: grey;
     cursor: pointer;
-    
+
 }
 
-.top-title{
-    background-color:#4c3323;
+.top-title {
+    background-color: #4c3323;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 5%; 
+    padding: 0 5%;
 
 }
-.top-title ul{
+
+.top-title ul {
     list-style: none;
     display: flex;
 }
-.top-title ul li{
+
+.top-title ul li {
     padding: 10px 20px;
     position: relative;
 }
-.top-title ul li a{
+
+.top-title ul li a {
     color: white;
     text-decoration: none;
     font-size: 17px;
     transition: all 0.3s;
 }
-.top-title ul li a:hover{
+
+.top-title ul li a:hover {
     color: var(--color-primary);
 }
 
-#title{
-    margin-inline-end: 20px;   
+#title {
+    margin-inline-end: 20px;
     border: solid;
     border-width: 1px;
     border-radius: px;
     border-color: #4c3323;
 }
 
-.nav-bar{
-    height:40px ;
-    background-color: #4c3323;
-    
+.nav-bar {
+    height: 35px;
+    background-color: #408E91;
+    width: 100%;
+   
 }
-.search-bar{
+.navi-bar{
+    background-color:#408E91;
+    height: 35px;
+}
+
+.search-bar {
     
-    margin-left: 25%;
     width: 35%;
     height: 35px;
-    vertical-align:6.5px;
+   
     border-width: 1px;
     border-style: solid;
     border-color: rgb(192, 192, 192);
@@ -85,17 +101,18 @@ body{
     box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.08);
     background-color: rgb(177, 172, 172);
     
-   
+}
 
- }
- .search-bar::placeholder {
+
+.search-bar::placeholder {
     font-family: Roboto, Arial;
     font-size: 16px;
     padding-left: 0.5em;
-    
-  }
-.search-button{
-    height: 39px;
+
+}
+
+.search-button {
+    height: 35px;
     width: 50px;
     border-width: 1px;
     border-style: solid;
@@ -103,26 +120,32 @@ body{
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     background-color: lightgrey;
-    margin-left:-20px;
-    
-    
+    margin-left: -20px;
+
+
 }
-.search-icon{
+
+.search-icon {
     height: 25px;
-    
-    
+
+
 }
-.black-line{
+
+.black-line {
     display: grid;
-    grid-template-columns: 90% 5% 5%;
+    grid-template-columns: 88% 7% 5%;
+    
 }
-.home{
+
+.home {
     height: 35px;
     background-color: black;
     word-spacing: 1em;
     
+
 }
-.home-text{
+
+.home-text {
     color: white;
     font-size: 15px;
     margin-top: 0px;
@@ -130,34 +153,39 @@ body{
     padding-left: 15px;
     padding-top: 9px;
 }
-.login-grid{
+
+.login-grid {
     color: white;
     font-size: 18px;
     margin-top: 0px;
-    background-color: black;  
-    padding-top: 7px;
+    background-color: black;
+    padding-top: 0;
+    height: 35px;
 }
-.login-button{
+
+.login-button {
     transition: all 0.2s ease-in-out;
 }
-.login-button:hover{
+
+.login-button:hover {
     color: grey;
     cursor: pointer;
 }
 
-.my-account-icon{
+.my-account-icon {
     background-color: black;
-    
-}
-.my-account{
-    border: solid;
-    border-width: 0.5px;
-    border-radius: 15px;
-    border-color: black;
-    ;
+    height: 35px;
 }
 
-.practice{
+.my-account {
+    border: solid;
+    border-width: 0.5px;
+    border-radius: 16px;
+    border-color: black;
+    height: 33px; 
+}
+
+.practice {
     margin-top: 40px;
     margin-left: 30%;
     height: 60%;
@@ -166,110 +194,123 @@ body{
     border-width: 4px;
     border-color: darkslategrey;
     background-color: rgb(13, 84, 112);
-        
+
 }
-.selection{
+
+.selection {
     background-color: rgb(234, 217, 217);
     width: 70px;
 }
-.select{
-    
-   
+
+.select {}
+
+.body-left {
+    background-color: #408E91;
 }
-.body-left{
-    background-color: #7F8487;
-}
-.paragraph{
+
+.paragraph {
     padding-top: 25px;
     font-style: Roboto, Arial, Sans-Serif;
     color: brown;
 }
-.body-right{
-    
-    
-    background-color: #7F8487;
+
+.body-right {
+
+
+    background-color: #408E91;
 }
 
-.body{
+.body {
     display: grid;
     grid-template-columns: 60% 40%;
     
-    
+
 }
-.practice-now{
-    color:rgb(31, 29, 29);
+
+.practice-now {
+    color: rgb(31, 29, 29);
     font-size: 25px;
     font-weight: bolder;
     padding-left: 10%;
-    margin-top:0;
+    margin-top: 0;
     padding-top: 10;
 }
-.selectg{
+
+.selectg {
     margin-bottom: 60px;
 }
-a{
+
+a {
     padding: 4px 8px;
     transition: 1.5s cubic-bezier(0.39, 0.5, 0.15, 1.5);
-    
+
 
 }
 
-a.button{
+a.button {
     margin-left: 33%;
-    
+
     font-size: large;
     font-weight: bold;
     border: solid;
     border-width: 3px;
     background-color: rgb(183, 174, 174);
     color: black;
-    box-shadow: rgb(30,99,160) 0 0 0 1px inset;
+    box-shadow: rgb(30, 99, 160) 0 0 0 1px inset;
 }
-a.button:hover{
+
+a.button:hover {
     color: white;
     box-shadow: rgb(30, 99, 160) 0 0 0 15px inset;
 }
-.select-video-language{
+
+.select-video-language {
     font-size: 17px;
     margin-left: 30%;
 }
-.watch-video{
+
+.watch-video {
     font-size: 30px;
     color: rgb(25, 24, 24);
     font-family: ;
     font-weight: bold;
     margin-top: 0;
     margin-bottom: 10px;
-
 }
-.video-content{
+
+.video-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    
+
 }
-.copyright{
+
+.copyright {
     background-color: rgb(112, 113, 114);
-    
+
 }
-.copyright-center{
+
+.second-page{
+    background-color: #408E91;
+}
+.copyright-center {
     color: black;
     margin-left: 35%;
     font-size: 18px;
     word-spacing: 0.4em;
 }
-.video-title{
+
+.video-title {
     font-size: 16px;
     font-weight: 550;
     color: black;
-    font-family: Roboto, Arial, Sans-Serif ;
+    font-family: Roboto, Arial, Sans-Serif;
     margin-left: 8px;
-   
-
 }
-.video-statistics{
+
+.video-statistics {
     color: rgb(1, 1, 1);
     font-size: 12px;
-    font-family: Roboto, Arial, Sans-Serif ;
+    font-family: Roboto, Arial, Sans-Serif;
     opacity: 0.7;
     font-weight: 550;
     margin-left: 8px;
