@@ -6,27 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Talklingo</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="styles.css">
-</head>
+    <link rel="stylesheet" href="design.css">
+    <!-- Font link for quote -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+<!-- link for font style of the last page of this website -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+
+<!-- link of icon library for last page github twitter etc icons. -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   </head>
 <div class="full-website">
     
     <div class="top-title">
     <img id="title" src="photos\logo6.png" height=100px width=160px>
     
      <ul>
-        <li><a href="#">newsletter</a></li>
-        <li><a href="#">about</a></li>
-        <li><a href="#">article <i class="fas fa-caret-down"></i></a></li>
+        <li><a href="#">Newsletter</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Article <i class="fas fa-caret-down"></i></a></li>
         
-        <li><a href="#">email</a></li>
-        <li><a href="#">domain</a></li>
+        <li><a href="#">Email</a></li>
+        <li><a href="#">Domain</a></li>
      </ul>
              
 </div>
  
 <div class="black-line">
     <div class="home">
-        <p class="home-text"> <span class="home-hover">Home</span> <span class="home-hover">Contacts</span> <span class="home-hover"><a href="faq.html" target="_blank"><strong>FAQs</strong></a></span> <span class="home-hover">Help</span></p>
+        <p class="home-text"> <span class="home-hover">Home</span> <span class="home-hover">Contacts</span> <span class="home-hover"><a href="faq.html" target="_blank"><strong>FAQs</strong></a></span> <span class="home-hover">Help</span><div class="navi-bar">
+          <div class="nav-bar">
+              <input class="search-bar" type="texts" placeholder="Search..">
+              <button type="submit" class="search-button">
+                  <img class="search-icon"src="photos\search.svg" height=20 width=20>
+                </button>
+          </div> 
+          </div></p>
         
     </div>
     <div class="login-grid">
@@ -57,7 +75,6 @@
           border: none;
           cursor: pointer;
           border-radius: 3px;
-         
         }
         .modelloginbutton{
             height: 34px;
@@ -221,16 +238,11 @@
         
     </div>
 </div>
-<div class="navi-bar">
-<div class="nav-bar">
-    <input class="search-bar" type="texts" placeholder="Search..">
-    <button type="submit" class="search-button">
-        <img class="search-icon"src="photos\search.svg" height=20 width=20>
-      </button>
-</div> 
-</div>
+
     <div class="body">
-        <div class="body-left">
+        <div class="page-one">
+          <img src="photos/slider3.png" height="600px" width="100%" alt="Not found">
+          <div class="quote">Practice makes perfect </br> So be perfect</div>
         <div class="practice">
             <p class="practice-now">Practice Now</p>
             <p class="select">Language&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -267,10 +279,12 @@
         </div>
           </div>
     
-    <div class="body-right">
-        <div class="videos">
+        </br>
+    <div class="page-two">
+      <div class="pagetwo-content">
+        <div class="videos-headline">
             <div class="video-language">
-                <p class="watch-video">Watch Videos <span class="select-video-language">
+                <p class="watch-video">WATCH VIDEOS <span class="select-video-language">
                     Language
                     <select class="select-videolanguage">
                         <option value="select">select</option>
@@ -322,10 +336,10 @@
         </div>
     </div>
 
-    
+  </div>
 </div>
 
-<div class="second-page">
+<div class="third-page">
 
 </br>
       <p style="background-image: url('photos/Screenshot_3.png'); padding-left: 3% ; opacity: 0.6;"ipsum
@@ -362,8 +376,23 @@
       </span></p>
   
     </div>
+
+    <div class="lastpage">
+      <div class="blocks">
+      <div class="block-one"><span class="talklingo-lastpage">Talklingo</span></br></br><span class="quotebelow-talklingo">&nbsp Practice makes you perfect</span> </div>
+      <div class="block-two"><span class="block-twodata">Information</span> </br></br>
+        <span class="block-twodata">Contact</span></br></br>
+        <span class="block-twodata">Help</span></br></br>
+        <span class="block-twodata">Service</span></div>
+      <div class="block-three"></br></br></br></br></br></br><div class="follow">Follow us on :</div><a href="https://github.com/"><i class="fa fa-github fa-2x"></i></a>
+        <a href="#" class="fa fa-twitter fa-2x"></a>
+        <a href="https://www.linkedin.com/feed/" class="fa fa-linkedin fa-2x"></a>
+      </div>
+    </div>
+    </div>
+
 <div class="copyright">
-    <span class="copyright-center">Copyright &#169; Talklingo 2023</span>
+    <span class="copyright-center"> &#169; 2023 Copyright. All right reserved </span>
 </div>
 </div>
 </body>
