@@ -29,7 +29,9 @@ body {
     color: grey;
     cursor: pointer;
 }
-
+.about-top:hover{
+    color: grey;
+}
 .home-hover {
     transition: all 0.2s ease-in-out;
 }
@@ -41,7 +43,7 @@ body {
 }
 
 .top-title {
-    background-color: rgb(150, 47, 51);
+    background-color: rgb(0, 0, 0);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -138,27 +140,28 @@ body {
 }
 
 .home {
-    height: 35px;
-    background-color: black;
+    height:40px;
+    background-color: rgb(87, 86, 86);
     word-spacing: 1em;
 }
 
 .home-text {
     color: white;
-    font-size: 15px;
+    font-size: 16px;
     margin-top: 0px;
     margin-block-end: 0;
     padding-left: 15px;
-    padding-top: 9px;
+    padding-top: 12px;
+    font-weight: 500;
 }
 
 .login-grid {
     color: white;
     font-size: 18px;
     margin-top: 0px;
-    background-color: black;
+    background-color: rgb(87, 86, 86);
     padding-top: 0;
-    height: 35px;
+    height: 40px;
 }
 
 .login-button {
@@ -171,16 +174,16 @@ body {
 }
 
 .my-account-icon {
-    background-color: black;
-    height: 35px;
+    background-color: rgb(87, 86, 86);
+    height: 40px;
 }
 
 .my-account {
     border: solid;
     border-width: 0.5px;
-    border-radius: 16px;
+    border-radius: 19px;
     border-color: black;
-    height: 33px; 
+    height: 38px; 
 }
 .quote{
     position: absolute;
@@ -195,24 +198,37 @@ body {
 
 .practice {
     position: absolute;
-    margin-left: 60%;
-    height: 42%;
+    margin-left: 50%;
+    height: 37%;
     width: 18%;
     border: solid;
-    border-width: 4px;
-    border-color: darkslategrey;
-    background-color: rgb(13, 84, 112);
-    top : 350px;
-    right: 150px;
+    border-width: 3px;
+    border-color: rgb(119, 120, 120);
+    background-color: rgb(176, 176, 176);
+    top : 400px;
+    right: 250px;
 
 }
 
 .selection {
     background-color: rgb(234, 217, 217);
     width: 70px;
+    font-size: 17px;
+    font-weight: 400;
+}
+.words{
+    font-size: 18px;
+    font-weight: 500;
 }
 
-.select {}
+.select {
+    padding-left: 5px;
+    
+}
+.selectg {
+    padding-left: 5px;
+    margin-bottom: 60px;
+}
 
 .page-one {
     background-color: lightgrey;
@@ -230,16 +246,15 @@ body {
 
 .practice-now {
     color: rgb(31, 29, 29);
-    font-size: 25px;
+    font-size: 27px;
     font-weight: bolder;
-    padding-left: 10%;
+    padding-left: 17%;
     margin-top: 0;
     padding-top: 10;
+    margin-bottom: 40px;
 }
 
-.selectg {
-    margin-bottom: 60px;
-}
+
 
 a {
     padding: 4px 8px;
@@ -253,7 +268,7 @@ a.button {
     font-size: large;
     font-weight: bold;
     border: solid;
-    border-width: 3px;
+    border-width: 2px;
     background-color: rgb(183, 174, 174);
     color: black;
     box-shadow: rgb(30, 99, 160) 0 0 0 1px inset;
@@ -272,8 +287,8 @@ a.button:hover {
 }
 .page-two{
     background-color: rgb(214, 210, 210);
-    height: 650px;    
-    margin-top: -19px ;
+    height: 750px;    
+    margin-top: -20px ;
     
 }
 
@@ -288,7 +303,7 @@ a.button:hover {
 }
 .select-videolanguage{
     font-size: 16px;
-    background-color:rgb(74, 87, 79);
+    background-color:rgb(143, 149, 145);
     font-weight: 600;
 }
 .watch-video {
@@ -426,3 +441,79 @@ a.button:hover {
     margin-top: 140px;
     margin-left: 80px;
 }
+
+/* code for animation .......start */
+.animation-code{
+    position: absolute;
+    left: 4%;
+    top: 33%;
+}
+
+#container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    transform-style: preserve-3d;
+    animation: spin 8s linear infinite;
+  }
+
+  .shape {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+  }
+
+  #shape1 {
+    top: 50%;
+    left: 0;
+    border-radius: 50%;
+    transform: translateX(-50%) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  }
+
+  #shape2 {
+    top: 0;
+    left: 50%;
+    background-color: blue;
+    border-radius: 0;
+    transform: translateX(-50%) translateY(-50%) rotateX(90deg) rotateY(0deg) rotateZ(0deg);
+  }
+
+  #shape3 {
+    top: 100%;
+    left: 50%;
+    background-color: green;
+    border-radius: 0;
+    transform: translateX(-50%) translateY(-50%) rotateX(-90deg) rotateY(0deg) rotateZ(0deg);
+  }
+
+  #shape4 {
+    top: 50%;
+    left: 100%;
+    background-color: yellow;
+    border-radius: 0;
+    transform: translateX(-50%) rotateX(0deg) rotateY(90deg) rotateZ(0deg);
+  }
+
+  @keyframes spin {
+    from {
+      transform: rotateY(0deg) rotateZ(0deg);
+    }
+    to {
+      transform: rotateY(360deg) rotateZ(720deg);
+    }
+    @keyframes move {
+        0% {
+          transform: translate(0, 0);
+        }
+        50% {
+          transform: translate(50px, 50px);
+        }
+        100% {
+          transform: translate(0, 0);
+        }
+      }
+  
+  
+/* end of animatin code */
